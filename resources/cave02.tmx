@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="24" tilewidth="20" tileheight="20">
+ <properties>
+  <property name="rightPortal" value="resources/cave01.tmx"/>
+ </properties>
+ <tileset firstgid="1" name="tiles_cave" tilewidth="20" tileheight="20">
+  <image source="tiles_cave.png" width="140" height="180"/>
+ </tileset>
+ <tileset firstgid="64" name="cave_background" tilewidth="20" tileheight="20">
+  <image source="cave_background.png" width="400" height="260"/>
+ </tileset>
+ <layer name="background" width="32" height="24">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2SSQ6AIBAE+f+L3J7g9gQX3qAe7SMHMQw0wcSppG4M3RkwRlGUr9FGWjKb0SE1O6UDKzu2g+Y/W8EaNoXyezjAUZgv7eg7s8AVbqS9vOV3glnGXlwmOMMd2oBZ315Yf+SEV8LdzD96ZOojJfRtcuW7MHbyd26D91L3AAwAAA==
+  </data>
+ </layer>
+ <layer name="walls" width="32" height="24">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGAWjYBQgA1kglgNieTJoBSrYrUqBfnUK3ECp3ZS4gVp2k+sGFSraDQN6JKjVpoH9piSoHY7+V2PAn1e5kNTSwv+kAFr4nxQw0v1vBMQmQGwMpXUG1jlg9ww2t+gOAnfA4mgwuYVcmpnursYEAC8jlb0ADAAA
+  </data>
+ </layer>
+ <objectgroup name="objects" width="32" height="24">
+  <object name="skull0" x="107" y="314" width="34" height="30"/>
+  <object name="grayWall" x="480" y="280" width="80" height="160"/>
+ </objectgroup>
+</map>

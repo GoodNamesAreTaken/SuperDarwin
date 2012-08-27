@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="24" tilewidth="20" tileheight="20">
+ <properties>
+  <property name="background" value="SKY"/>
+  <property name="rightPortal" value="resources/level1.tmx"/>
+ </properties>
+ <tileset firstgid="1" name="beach_bg" tilewidth="20" tileheight="20">
+  <image source="beach_bg.png" width="640" height="360"/>
+ </tileset>
+ <tileset firstgid="577" name="beach_fg" tilewidth="20" tileheight="20">
+  <image source="beach_fg.png" width="160" height="300"/>
+ </tileset>
+ <layer name="background" width="32" height="24">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3QRWxVURAA0F/cXYq2uGuFUl9jC5ygOxLc3XYQ3N2CB9dA8LDD3d3d3Tkkf0FIaFiQbviTnMy9b+6dee8FAqEIRSjSOyKITKdZ8SSQSBLJpJCaTvNDEYr/KYqEBQJFCQ/7t32r61fjDz2jPI8mhljqEUd94kkgkSSSSSH1L9+vgXMNaURjmvx2r6l9M5rTgpa0ojVtgmfbyu1oTwc60imN+Z1/qXWx7ko3utODnvSiN33oSz/6M4CBDGIwQxjKMIYzgpGMSmP+aLUxwfpYeRzjmcBEJjGZKUxlGtOZwUxmMZs5zGUe81nAQhaxONh/ibyUZSxnBStZFayvltewlnWsZwMb2cRmtrCVbcE72+UdwfVOeRe72cNe9rE/WD+Qxn84qHaIwxzhKMc4zglOcorTnOEs5zjPBS5yictc4SrXuM4NbnKL29zhLve4zwMe8ojHPOEpz3jOC17yite84S3veM8HPvKJz3zhK9/4/vObMwQCYWQgI5nITBayko3s5CAnuchNHvKSj/wUoCCFKEwRihJOMYpTgpKUojQRRFKGspSjPBWoSCUqU4WqVKM6NahJLWpTh7pEEU0MsdQjjvrEk0AiSSSTQio/ACiFij4ADAAA
+  </data>
+ </layer>
+ <layer name="walls" width="32" height="24">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3PORKCUBBF0f6GshXd/wKUYSsKKiAzCFx38AMpAt+tOlkHr82UUkoppdQ/dnFmV4SIECNxe68yu7HhjhQZHnjihRwFSrxRoUaDFh16DBgx4YMZy/e3g9+GI3eB5+2Wndhw/vGOFc78M/oADAAA
+  </data>
+ </layer>
+ <objectgroup name="objects" width="32" height="24">
+  <object name="Spawn" x="190" y="312" width="80" height="80"/>
+ </objectgroup>
+ <layer name="foreground" width="32" height="24">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3W1UpFQRiA0cN5M7u7u7u7AxsbE0wwwQTz9Vygr+CgcH5YDOyL+W6G2ROJxOY/TVw0EokngcTo97ckazIppEZ/t59m/3QyyPxpZVmzySH3l/ux+V+T5zzkU0AhRRRTQmmAs1KmUU4FlVRRTQ21Afp1GvU00EgTzbTQGqDfptFOB5100U0PvQH6fRr9DDDIEMOMMBqgP6YxzgSTTDHNDLOB7qo5nXkWWGSJZVYC9Vd11lhng0222A7U39HZZY99DjgM+J840jrmhFPOOA/Yv9C65IprbrgN2L/TuueBR554Dth/0XrljXc++Iy9E/7EfAGqL9YwAAwAAA==
+  </data>
+ </layer>
+</map>

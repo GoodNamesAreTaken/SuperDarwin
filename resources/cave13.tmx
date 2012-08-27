@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="24" tilewidth="20" tileheight="20">
+ <properties>
+  <property name="rightPortal" value="resources/cave14.tmx"/>
+  <property name="topPortal" value="resources/cave11.tmx"/>
+ </properties>
+ <tileset firstgid="1" name="tiles_cave" tilewidth="20" tileheight="20">
+  <image source="tiles_cave.png" width="140" height="180"/>
+ </tileset>
+ <tileset firstgid="64" name="cave_background" tilewidth="20" tileheight="20">
+  <image source="cave_background.png" width="400" height="260"/>
+ </tileset>
+ <layer name="background" width="32" height="24">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+XWP04CQRTH8TkaIAlQiM2CBVCIDWoBFEIjUAAFeADxDGrvvyPw7wiAXkGk9FtIXMfdndmFdUh4yadgyctv8uaxQYjtV1xDmLXL+RFEDeZbyBjMNz3/Es4M5l+hYTDf9Pz/Iz+GA5/5bXTQFX/vqomW7blqh7I49siOOPTcYIBbxbl1dkjVbzn03OEeDxr9qjuU5+X0G/R7Zj/5OvOTy21fHvGE54Bn9GK/Q7d9GWKEcQj59hleuHw/wxyLkPO99iVM69J5ZwR1iDSOvj8nkZLyVe+MTZygiFMkXPLPxe8deMHrlvIvUUMdOeRRkPI/sMQnVphgije8i5//TX7uad3TQx/XKKOCqpS/r/UFG+XDagAMAAA=
+  </data>
+ </layer>
+ <layer name="walls" width="32" height="24">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgoC4QJFKdBJXtHbV/cNvPAsSSUMw6APajg1H7B4/9skAsD8RyJNIKVLJfhUg96MCUSvZrk2m/Hg77YXmNlUj7h6r/1RgQaYELisWJ1CsGVQ8C5PqfWoBc/1MLjPqftkARiJWAWBmH/HD3PyEw0P43AmITIDamgGYmEw80AAAGAdBfAAwAAA==
+  </data>
+ </layer>
+ <objectgroup name="objects" width="32" height="24">
+  <object name="skull2" x="71" y="390" width="31" height="31"/>
+  <object name="redWall" x="320" y="280" width="80" height="160"/>
+ </objectgroup>
+</map>
