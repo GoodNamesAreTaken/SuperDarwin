@@ -21,5 +21,16 @@
  </layer>
  <objectgroup name="objects" width="44" height="24">
   <object name="ironCane" x="26" y="372" width="80" height="80"/>
+  <object type="Spider" x="21" y="337" width="366" height="120"/>
+  <object type="Spider" x="154" y="297" width="373" height="161"/>
+  <object type="Spider" x="389" y="298" width="470" height="162"/>
+  <object type="Spider" x="227" y="285" width="475" height="175"/>
+  <object type="Bat" x="192" y="58" width="663" height="19"/>
+  <object type="Bat" x="339" y="117" width="503" height="38"/>
+  <object type="Snake" x="222" y="137" width="408" height="40"/>
+  <object type="Spider" x="51" y="284" width="407" height="176"/>
+  <object type="Spider" x="19" y="279" width="773" height="180"/>
+  <object type="Spider" x="643" y="27" width="215" height="423"/>
+  <object type="Spider" x="11" y="156" width="627" height="304"/>
  </objectgroup>
 </map>

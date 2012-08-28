@@ -22,5 +22,9 @@
  <objectgroup name="objects" width="32" height="24">
   <object name="skull0" x="107" y="314" width="34" height="30"/>
   <object name="grayWall" x="480" y="280" width="80" height="160"/>
+  <object name="Snake 1" type="Snake" x="300" y="400" width="180" height="40"/>
+  <object type="Snake" x="240" y="380" width="60" height="40"/>
+  <object type="Snake" x="200" y="360" width="40" height="40"/>
+  <object type="Snake" x="140" y="340" width="60" height="40"/>
  </objectgroup>
 </map>

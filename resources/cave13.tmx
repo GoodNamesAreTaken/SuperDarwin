@@ -23,5 +23,7 @@
  <objectgroup name="objects" width="32" height="24">
   <object name="skull2" x="71" y="390" width="31" height="31"/>
   <object name="redWall" x="320" y="280" width="80" height="160"/>
+  <object type="Snake" x="126" y="391" width="177" height="46"/>
+  <object type="Spider" x="409" y="332" width="220" height="106"/>
  </objectgroup>
 </map>

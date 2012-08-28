@@ -13,15 +13,18 @@
  </tileset>
  <layer name="background" width="32" height="24">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAC+3SS07CUBSA4TKTPYjADkBhDglTQEEWIG8WwEOEkTAQUIaovBbAS2AHAroDEdyM/4QJsZorLR3Qk3xJk9ucv20qScqNR4Aao/d369+ihLLgLqXet4FHPKnQ30giJdPvoY+Biv0CijL9zT3PaKKFNjroKvwcv/WHGOEFY0ww3WP/FTPMscAb3gV2n+MCAQQF+kcGSTLig+slPrHCGl8C/ShiiCMh0D+mbcIJzLDAahD/tjlcI4+brTMX3DJ9Gy07TnEGB5z/6NdwjwfUt84uEZLp/zWi/9OuO3W6n3jhg1+j/hXCiGjUTyODrEb9O1RQVWDXoc83opuBEwAMAAA=
+   H4sIAAAAAAAAA+3SS07CUBSA4TKTPYjADkBhDglTQEEWIG8WwEOEkTAQUIaovBbAS2AHAroDEdyM/4QJsZorLR3Qk3xJk9ucv20qScqNR4Aao/d369+ihLLgLqXet4FHPKnQ30giJdPvoY+Biv0CijL9zT3PaKKFNjroKvwcv/WHGOEFY0ww3WP/FTPMscAb3gV2n+MCAQQF+kcGSTLig+slPrHCGl8C/ShiiCMh0D+mbcIJzLDAahD/tjlcI4+brTMX3DJ9Gy07TnEGB5z/6NdwjwfUt84uEZLp/zWi/9OuO3W6n3jhg1+j/hXCiGjUTyODrEb9O1RQVWDXoc83opuBEwAMAAA=
   </data>
  </layer>
  <layer name="walls" width="32" height="24">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAC2NgoA4QJFG9BJXsHS72MwIxFwVYnEL7SXU/qYAFiCWhmHUA7EcHo/YPX/stgdgKiK2B2GYA7CcGjNoPAcjllyQezErAPOTyhRgsBrV3FIwCUoEiECsBsfJAO2QUUAyYBxgPNAAAeEbVegAMAAA=
+   H4sIAAAAAAAAA2NgoA4QJFG9BJXsHS72MwIxFwVYnEL7SXU/qYAFiCWhmHUA7EcHo/YPX/stgdgKiK2B2GYA7CcGjNoPAcjllyQezErAPOTyhRgsBrV3FIwCUoEiECsBsfJAO2QUUAyYBxgPNAAAeEbVegAMAAA=
   </data>
  </layer>
  <objectgroup name="objects" width="32" height="24">
   <object name="redWall" x="520" y="280" width="80" height="160"/>
+  <object name="Spider1" type="Spider" x="200" y="140" width="180" height="120"/>
+  <object name="Spider 2" type="Spider" x="420" y="120" width="80" height="60"/>
+  <object name="Spider 3" type="Spider" x="20" y="300" width="220" height="140"/>
  </objectgroup>
 </map>

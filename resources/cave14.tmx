@@ -21,5 +21,10 @@
    H4sIAAAAAAAAC2NgIA4IEqlOgkh1pIJR+wen/SxALAnFrANgPzoYtX/U/uFqPyyvsQ6Q/cQAUu3nIhKLE2meGJHmMZHoTmoDWsXTqP30s18RiJWAWHmA7KcEjNoPAcxUxgIMmG0ifPZTG5BaTgMA5SuMSgAMAAA=
   </data>
  </layer>
- <objectgroup name="objects" width="32" height="24"/>
+ <objectgroup name="objects" width="32" height="24">
+  <object type="Spider" x="57" y="366" width="413" height="72"/>
+  <object x="411" y="419" width="1"/>
+  <object type="Spider" x="186" y="305" width="210" height="132"/>
+  <object type="Bat" x="284" y="38" width="53" height="299"/>
+ </objectgroup>
 </map>

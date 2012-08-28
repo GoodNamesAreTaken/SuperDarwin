@@ -7,7 +7,9 @@ src/main.js
 ----------------
 lib/domReady.js
 lib/Cocos2d-html5-canvasmenu.js
+src/scenes/PauseScene.js
 src/actors/Darwin.js
+src/actors/Heart.js
 src/actors/Enemy.js
 src/actors/Snake.js
 src/actors/Bat.js

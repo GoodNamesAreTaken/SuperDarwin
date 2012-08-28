@@ -13,13 +13,17 @@
  </tileset>
  <layer name="background" width="32" height="24">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAC2NgoD5wIQLTEozaP7D2OwGx8wDaHwbE4TSyPwuIs3GYmQHEmQTUUGp/HRDX4zCzBohrCahxAGJHCuwnJm3RMv1Rai8sjqjtH2IxLI4Gyn708B+1f/DZvw+I9wPxASA+OAD2XwLiy0B8BYivDoD9z4D4ORC/AOKXA2D/QMf/YLGfj5GBgR+IBRhpZz81wUDbT0y7Z7D5HwBKVmo6AAwAAA==
+   H4sIAAAAAAAAA2NgoD5wIQLTEozaP7D2OwGx8wDaHwbE4TSyPwuIs3GYmQHEmQTUUGp/HRDX4zCzBohrCahxAGJHCuwnJm3RMv1Rai8sjqjtH2IxLI4Gyn708B+1f/DZvw+I9wPxASA+OAD2XwLiy0B8BYivDoD9z4D4ORC/AOKXA2D/QMf/YLGfj5GBgR+IBRhpZz81wUDbT0y7Z7D5HwBKVmo6AAwAAA==
   </data>
  </layer>
  <layer name="walls" width="32" height="24">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAC2NgoC4QJFKdBJXtRbafBYgloZh1AOwnBozaTzpgBGIuAlichvYT67dR+zEBep6E2U8oPsmJW2IArdL/SLafmHKXlvaTAoay/aSEMy3spwYYtX/UfhBgphIWINN+agFS60Za2I9cLhAqG2D2AwAZsjo0AAwAAA==
+   H4sIAAAAAAAAA2NgoC4QJFKdBJXtRbafBYgloZh1AOwnBozaTzpgBGIuAlichvYT67dR+zEBep6E2U8oPsmJW2IArdL/SLafmHKXlvaTAoay/aSEMy3spwYYtX/UfhBgphIWINN+agFS60Za2I9cLhAqG2D2AwAZsjo0AAwAAA==
   </data>
  </layer>
- <objectgroup name="objects" width="32" height="24"/>
+ <objectgroup name="objects" width="32" height="24">
+  <object name="Spider1" type="Spider" x="140" y="360" width="220" height="60"/>
+  <object name="Bat1" type="Bat" x="543" y="15" width="29" height="140"/>
+  <object name="Bat1" type="Bat" x="300" y="380" width="240" height="40"/>
+ </objectgroup>
 </map>
